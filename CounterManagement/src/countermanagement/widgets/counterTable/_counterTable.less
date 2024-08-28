@@ -1,0 +1,122 @@
+.eaCounterManagement {
+    &-counterTable {
+        height: 100%;
+        position: relative;
+        overflow-x: auto;
+
+        &-tableSettings {
+            display: block;
+            &-content {
+                float: right;
+                margin-top: 8px;
+            }
+            &-link {
+                cursor: pointer;
+                font-size: 12px;
+            }
+        }
+
+        &-select {
+            font-size: 12px;
+            color: #333333;
+            &-clear {
+                display: none;
+                color: #0066b3;
+                cursor: pointer;
+            }
+            &-divider {
+                padding: 0px 5px;
+            }
+        }
+
+        &-filter {
+            display: none;
+
+            &-filterText {
+                font-size: 12px;
+                color: #333333;
+                padding-left: 3px;
+            }
+
+            &Clear {
+                display: inline-block;
+                cursor: pointer;
+                font-size: 12px;
+
+            }
+
+            &-divider {
+                padding: 0px 5px;
+            }
+            &-input {
+                padding-left: 5px;
+                width: 250px;
+            }
+        }
+
+        &-refresh {
+            display: block;
+            &-content {
+                float: right;
+                margin: 8px 10px;
+            }
+            &-link {
+                cursor: pointer;
+                font-size: 12px;
+            }
+        }
+        &-contentHolder {
+            &-table {
+                display: block;
+                padding-bottom: 20px;
+                &_hide {
+                    display: none;
+                }
+            }
+            &-tableHeader {
+                border-bottom: 1px solid #666666;
+                font-size: 15px;
+                height: auto;
+                margin-top: 9px;
+
+                &-left {
+                    float: left;
+                }
+
+                &-right {
+                    padding-right: 2px;
+                    float: right;
+                    display: block;
+                    &_hide {
+                        display: none;
+                    }
+                }
+            }
+            &-tableBody {
+                display: block;
+                padding-top: 4px;
+            }
+        }
+        &-heading {
+            &-content {
+                line-height: 30px;
+            }
+            border-bottom: none;
+            line-height: 0rem;
+            font-size: 2.0rem;
+            font-weight: normal;
+            padding: 20px 0 15px 0;
+            margin: 0;
+            width: 300px;
+        }
+
+        &-errorContainer {
+            display: block;
+            margin: 10px;
+
+            &_hide {
+                display: none;
+            }
+        }
+    }
+}

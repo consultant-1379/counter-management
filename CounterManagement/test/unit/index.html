@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Unit tests</title>
+    <script src="../../_tools/index.js"></script>
+    <script src="../../.cdt/require.config.js"></script>
+    <script>
+        loadTestDependencies({
+            requireConfig: {
+                baseUrl: "../../",
+                i18n: {
+                    locales: ['en-us'],
+                    localesDir: "../../locales"
+                }
+            },
+            tests: [
+                "CounterManagement",
+                "regions/main/Main",
+                "regions/details/Details",
+                "regions/flexCounterCreate/FlexCounterCreate",
+                "regions/flexCounterCreate/Rest",
+                "utils/UtilityTest",
+                "utils/ErrorHandling",
+                "widgets/viewContainer/ViewContainer",
+                "widgets/counterTable/CounterTableTest",
+                "widgets/counterDetails/CounterDetailsTest",
+                "/widgets/listItem/ListItem",
+                "/widgets/treeList/TreeList",
+                "/widgets/nodeTypeSelect/NodeTypeSelect",
+                "/widgets/filterCounterMapping/FilterCounterMapping"
+            ]
+        });
+    </script>
+</head>
+<body>
+</body>
+</html>

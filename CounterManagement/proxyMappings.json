@@ -1,0 +1,9 @@
+{
+    "proxy_protocol": "https",
+    "proxy_host": "enmapache.athtem.eei.ericsson.se",
+    "proxy_port": "443",
+    "username": "Administrator",
+    "userpassword": "TestPassw0rd",
+    "mappings": [
+    ]
+}

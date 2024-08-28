@@ -1,0 +1,17 @@
+{
+  "name": "counters-management",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "cdt2 serve -m server.js",
+    "start:mock": "cdt2 serve -m mockServer.js",
+    "test": "cdt2 build --proxy http://www-proxy.lmera.ericsson.se:8080 --use-external-phantomjs",
+    "lint": "eslint -c ../.eslintrc.js \"src/**/*.js\" \"test/**/*.js\""
+  },
+  "devDependencies": {
+    "eslint": "^4.2.0",
+    "request": "^2.81.0"
+  },
+  "dependencies": {
+    "npm": "^6.9.0"
+  }
+}

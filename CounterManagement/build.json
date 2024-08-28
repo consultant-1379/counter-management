@@ -1,0 +1,38 @@
+{
+    "parent": "$(parentJson)/app.json",
+    "defaultPhase": "package",
+    "properties": {
+        "package": "countermanagement",
+        "name": "CounterManagement",
+        "version": "1.0.0",
+        "skeleton": "2.3.1",
+        "skeletonType": "app"
+    },
+    "phases": {
+        "package": {
+            "depends": [
+                "clean",
+                "analyze",
+                "test",
+                "compile",
+                "compress"
+            ]
+        }
+    },
+    "dependencies": {
+        "logger": "0.3.0",
+        "login": "0.2.2",
+        "flyout": "0.1.8",
+        "helpsdk": "2.10.4",
+        "assets": "1.10.8",
+        "contextmenu": "0.1.14",
+        "layouts": "1.8.15",
+        "i18n": "2.5.1",
+        "jscore": "1.9.1",
+        "navigation": "1.0.8",
+        "widgets": "1.9.3",
+        "container": "1.15.0",
+        "tablelib": "0.11.0",
+        "dataviz": "0.1.14"
+    }
+}

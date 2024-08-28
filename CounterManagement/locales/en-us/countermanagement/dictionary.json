@@ -1,0 +1,141 @@
+{
+    "actionButtons": {
+        "create": "Create",
+        "save": "Save",
+        "cancel": "Cancel"
+    },
+    "buttons": {
+        "ok": "OK"
+    },
+    "view": {
+        "flexCounterConfiguration": {
+            "name": "Create EBS Flex Counter"
+        }
+    },
+    "errors": {
+        "generic": {
+            "400": {
+                "header": "Invalid request",
+                "description": "If the problem persists, contact your System Administrator."
+            },
+            "403": {
+                "header": "Access Denied",
+                "description": "Your role does not allow you to perform this operation. Contact your Security Administrator to change your access rights."
+            },
+            "404": {
+                "header": "Service Unavailable",
+                "description": "The service is currently unavailable. Please retry your request later. If the problem persists, contact your System Administrator."
+            },
+            "500": {
+                "header": "Unable to Retrieve Data",
+                "description": "The server encountered an internal error."
+            },
+            "unknown": {
+                "header": "Internal error",
+                "description": "There was an unknown server error. If the problem persists, contact your System Administrator."
+            }
+        },
+        "internal": {
+            "-2": {
+                "header": "Timeout",
+                "description": "Request timed out."
+            },
+            "-3": {
+                "header": "Action in progress",
+                "description": "Save ongoing, please check later if it was successful."
+            },
+            "-999": {
+                "header": "Unable to Retrieve Data",
+                "description": "The server encountered an internal error. Please try again later."
+            },
+            "10014": {
+                "header": "Unable to Connect to Database",
+                "description": "Unable to establish a database connection. Please try again later."
+            },
+            "10015": {
+                "header": "Access Denied",
+                "description": "Your role does not allow you to perform this operation. Contact your Security Administrator to change your access rights."
+            },
+            "10025": {
+                "header": "Could not find requested object",
+                "description": "We cannot find the requested object. It may have been removed or is not available at this time. Please try again later."
+            },
+            "10027": {
+                "header": "Service Unavailable",
+                "description": "The service is currently unavailable. Please retry your request later. If the problem persists, contact your System Administrator."
+            },
+            "10106": {
+                "header": "Unable to Retrieve Data",
+                "description": "There is currently no capacity to process the request due to a large amount of activity on the server. Please try again later."
+            }
+        }
+    },
+    "details": {
+        "name": "Details",
+        "value": "details",
+        "defaultDetailsMessageTitle": "No EBS Flex Counters Selected",
+        "defaultDetailsMessageText" : "Select a counter to view its details.",
+        "genericErrorTitle": "Unable to Retrieve Data",
+        "genericErrorText" : "The server encountered an internal error."
+
+    },
+    "counterTable": {
+        "refreshText": "Refresh",
+        "infoMessage": {
+            "noFlexCounterCreated": {
+                "header": " You have no EBS Flex Counter’s created",
+                "content": "To get started simply click the [Create] button."
+            }
+        },
+        "filter": {
+            "filtersApplied": "Filters Applied",
+            "clear": "Clear"
+        },
+        "selection":{
+            "clear": "Clear"
+        },
+        "selected": "Selected",
+        "tableColumns": {
+            "counterName": "Name",
+            "moClass": "MO Class",
+            "status": "Status",
+            "modifiedDate": "Last Modified",
+            "createdBy": "Created By"
+        },
+        "list": {
+            "label": {
+                "tableHeader": "EBS Flex Counters"
+            }
+        }
+    },
+    "counterDetails" : {
+        "flexCounterName" : "Name",
+        "createdBy"       : "Created By",
+        "modified"        : "Modified",
+        "baseCounterName" : "EBS Base Counter",
+        "counterDescription": "Counter Description",
+        "eventName"       : "PM Event",
+        "sourceObject"    : "MO Class",
+        "flexFilterId"    : "Flex Filter"
+    },
+    "selected": "Selected",
+    "nodeTypeSelect": "Node Type",
+    "clear": "Clear",
+    "flexFilter": {
+        "title": "Filters",
+        "message": {
+            "nodeNotSelected": "Select Node Type to view available flex filters",
+            "notAvailable": "No filters found for the selected counters",
+            "filter": "No filters found"
+        }
+    },
+    "baseCounters": {
+        "title": "Base Counters",
+        "message": {
+            "nodeNotSelected": "Select Node Type to view available base counters",
+            "notAvailable": "No counters found for the selected filters",
+            "filter": "No counters found"
+        }
+    },
+    "selectNodeType" : "Select Node Type"
+}

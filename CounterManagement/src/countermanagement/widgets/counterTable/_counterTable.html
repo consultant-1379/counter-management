@@ -1,0 +1,42 @@
+<div class="eaCounterManagement-counterTable">
+
+    <div class="eaCounterManagement-counterTable-createMessage"></div>
+    <div class='eaCounterManagement-counterTable-contentHolder-table'>
+        <div class='eaCounterManagement-counterTable-contentHolder-tableHeader'>
+            <div class='eaCounterManagement-counterTable-contentHolder-tableHeader-left'>
+                <span class='eaCounterManagement-counterTable-heading-content'>
+                     <label class='eaCounterManagement-counterTable-heading'>{{counterTable.list.label.tableHeader}} (<span
+                         class='eaCounterManagement-counterTable-count'></span>)
+                     </label>
+                    <span class="eaCounterManagement-counterTable-select">
+                        <span class="eaCounterManagement-counterTable-select-divider ebColor_black_20">|</span>
+                        <span class="eaCounterManagement-counterTable-select-count"></span>
+                        <span class="eaCounterManagement-counterTable-select-clear"> - {{counterTable.selection.clear}}</span>
+                    </span>
+                    <span class="eaCounterManagement-counterTable-filter">
+                        <span class="eaCounterManagement-counterTable-filter-divider ebColor_black_20">|</span>
+                <span class="eaCounterManagement-counterTable-filter-filterText">{{counterTable.filter.filtersApplied}} -</span>
+                <span class="eaCounterManagement-counterTable-filterClear ebColor_textLinkBlue">{{counterTable.filter.clear}}</span>
+            </span>
+                </span>
+            </div>
+            <div class='eaCounterManagement-counterTable-contentHolder-tableHeader-right'>
+
+                <input type="text" class="ebInput eaCounterManagement-counterTable-filter-input" placeholder="Filter by Name"/>
+
+                <button class="ebBtn ebBtn_subtle eaCounterManagement-counterTable-refreshButton">
+                    <i class="ebIcon ebIcon_refresh"></i>
+                </button>
+
+                <button class="ebBtn ebBtn_subtle eaCounterManagement-counterTable-tableSettingsButton">
+                    <i class="ebIcon ebIcon_settings"></i>
+                </button>
+
+            </div>
+            <div style="clear:both"></div>
+        </div>
+
+        <div class='eaCounterManagement-counterTable-contentHolder-tableBody ebTable_striped'></div>
+    </div>
+    <div class='eaCounterManagement-counterTable-errorContainer'></div>
+</div>

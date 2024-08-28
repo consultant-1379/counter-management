@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <parent>
+        <artifactId>counter-management-testsuite</artifactId>
+        <groupId>com.ericsson.oss.presentation.client.test.countermanagement</groupId>
+        <version>1.0.0-SNAPSHOT</version>
+        <relativePath>..</relativePath>
+    </parent>
+    <modelVersion>4.0.0</modelVersion>
+
+    <artifactId>counter-management-testsuite-integration</artifactId>
+    <packaging>pom</packaging>
+
+    <modules>
+        <module>counter-management-testsuite-integration-commons</module>
+        <module>counter-management-testsuite-integration-specs</module>
+    </modules>
+
+    <properties>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <version.failsafe.plugin>2.19.1</version.failsafe.plugin>
+        <node>/proj/ciexadm200/tools/node/0.10.26_x64/bin/node</node>
+        <npm>/proj/ciexadm200/tools/node/0.10.26_x64/bin/npm</npm>
+        <cdt-build.path>/proj/ciexadm200/tools/node/0.10.26_x64/lib/node_modules/cdt-build/index.js</cdt-build.path>
+        <cdt-serve>/proj/ciexadm200/tools/node/0.10.26_x64/lib/node_modules/cdt-serve/index.js</cdt-serve>
+        <cdt-package>/proj/ciexadm200/tools/node/0.10.26_x64/lib/node_modules/cdt-package/index.js</cdt-package>
+        <browser>chrome</browser>
+        <app.url>http://localhost:8585</app.url>
+        <headless>--headless</headless>
+    </properties>
+</project>
